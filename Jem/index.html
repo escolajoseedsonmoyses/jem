@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Site institucional da EE Prof. José Edson Moysés, localizada em Irapuru - SP.">
+
+    <title>EE Prof. José Edson Moysés | Irapuru - SP</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         CABEÇALHO
+    ========================================== -->
+
+    <header>
+
+        <div class="identidade">
+
+            <img src="imagens/brasao-irapuru.png"
+                alt="Brasão do município de Irapuru"
+                class="brasao">
+
+            <div>
+                <h1>EE Prof. José Edson Moysés</h1>
+                <p>Irapuru - São Paulo</p>
+            </div>
+
+        </div>
+
+
+        <!-- MENU -->
+
+        <nav aria-label="Menu principal">
+
+            <a href="#inicio">Início</a>
+
+            <a href="#escola">A Escola</a>
+
+            <a href="#equipe">Equipe</a>
+
+            <a href="#espacos">Espaços</a>
+
+            <a href="#acessibilidade">Acessibilidade</a>
+
+            <a href="#premiacoes">Premiações</a>
+
+            <a href="#eventos">Eventos e Projetos</a>
+
+            <a href="#familias">Famílias</a>
+
+            <a href="#contato">Contato</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================
+         INÍCIO / BANNER
+    ========================================== -->
+
+    <section id="inicio" class="banner">
+
+        <div class="banner-conteudo">
+
+            <span class="banner-tag">
+                EE Prof. José Edson Moysés
+            </span>
+
+            <h2>
+                Bem-vindos à nossa escola!
+            </h2>
+
+            <p>
+                Educação, inclusão, conhecimento e transformação para construir novos futuros.
+            </p>
+
+            <a href="#escola" class="botao">
+                Conheça nossa escola
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SOBRE A ESCOLA
+    ========================================== -->
+
+    <section id="escola" class="secao">
+
+        <h2>
+            Conheça a nossa escola
+        </h2>
+
+        <div class="sobre-container">
+
+            <img src="imagens/frente_escola.jpg"
+                alt="Frente da Escola Prof. José Edson Moysés">
+
+            <div class="sobre-texto">
+
+                <h3>
+                    Educação que transforma
+                </h3>
+
+                <p>
+                    A EE Prof. José Edson Moysés está localizada no município de Irapuru, no interior do Estado de São Paulo.
+                </p>
+
+                <p>
+                    Nossa escola é um espaço de aprendizagem, convivência, inclusão e construção do conhecimento, buscando contribuir para o desenvolvimento integral dos estudantes.
+                </p>
+
+                <p>
+                    A unidade integra a rede estadual de ensino e desenvolve ações voltadas ao Ensino Fundamental, Ensino Médio e Educação de Jovens e Adultos.
+                </p>
+
+                <p>
+                    Neste site você poderá conhecer nossos espaços, equipe, conquistas e os profissionais que fazem parte da nossa comunidade escolar.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         EQUIPE
+    ========================================== -->
+
+    <section id="equipe" class="secao fundo-azul">
+
+        <h2>
+            Nossa Equipe
+        </h2>
+
+        <p class="introducao">
+            Conheça os profissionais que fazem parte da comunidade escolar e contribuem diariamente para o desenvolvimento da nossa escola.
+        </p>
+
+
+        <div class="galeria-container">
+
+            <button
+                class="galeria-botao anterior"
+                onclick="mudarImagem('equipe', -1)"
+                aria-label="Foto anterior da equipe">
+                &#10094;
+            </button>
+
+
+            <div class="galeria-principal">
+
+                <div class="imagem-container">
+
+                    <img
+                        id="imagem-equipe"
+                        src="imagens/diretor.jpg"
+                        alt="Diretor José Luís Rigonato">
+
+                </div>
+
+
+                <div class="galeria-informacao">
+
+                    <span
+                        id="contador-equipe"
+                        class="contador">
+                        1 / 18
+                    </span>
+
+                    <h3 id="titulo-equipe">
+                        Direção: José Luís Rigonato
+                    </h3>
+
+                    <p id="descricao-equipe">
+                        Responsável pela gestão geral e liderança da unidade escolar.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="galeria-botao proximo"
+                onclick="mudarImagem('equipe', 1)"
+                aria-label="Próxima foto da equipe">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <div
+            class="galeria-indicadores"
+            id="indicadores-equipe">
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ESPAÇOS DA ESCOLA
+    ========================================== -->
+
+    <section id="espacos" class="secao">
+
+        <h2>
+            Conheça nossos espaços
+        </h2>
+
+        <p class="introducao">
+            Nossa escola possui diferentes espaços destinados à aprendizagem, convivência, esporte, leitura, tecnologia e segurança dos estudantes.
+        </p>
+
+
+        <div class="galeria-container">
+
+            <button
+                class="galeria-botao anterior"
+                onclick="mudarImagem('espacos', -1)"
+                aria-label="Foto anterior dos espaços">
+                &#10094;
+            </button>
+
+
+            <div class="galeria-principal">
+
+                <div class="imagem-container">
+
+                    <img
+                        id="imagem-espacos"
+                        src="imagens/frente_escola.jpg"
+                        alt="Fachada da Escola">
+
+                </div>
+
+
+                <div class="galeria-informacao">
+
+                    <span
+                        id="contador-espacos"
+                        class="contador">
+                        1 / 23
+                    </span>
+
+                    <h3 id="titulo-espacos">
+                        Fachada da Escola
+                    </h3>
+
+                    <p id="descricao-espacos">
+                        Entrada principal da EE Prof. José Edson Moysés.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="galeria-botao proximo"
+                onclick="mudarImagem('espacos', 1)"
+                aria-label="Próxima foto dos espaços">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <div
+            class="galeria-indicadores"
+            id="indicadores-espacos">
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ACESSIBILIDADE
+    ========================================== -->
+
+    <section id="acessibilidade" class="secao fundo-azul">
+
+        <h2>
+            ♿ Acessibilidade e Inclusão
+        </h2>
+
+        <p class="introducao">
+            Nossa escola busca promover um ambiente acessível, acolhedor e inclusivo, oferecendo recursos e condições para garantir a participação de todos.
+        </p>
+
+
+        <div class="acessibilidade-introducao">
+
+            <div class="acessibilidade-item">
+
+                <span>♿</span>
+
+                <h3>
+                    Estrutura acessível
+                </h3>
+
+                <p>
+                    Rampas, corrimãos, elevador e banheiro acessível contribuem para a autonomia e circulação dos estudantes.
+                </p>
+
+            </div>
+
+
+            <div class="acessibilidade-item">
+
+                <span>🧏</span>
+
+                <h3>
+                    Inclusão e Atendimento
+                </h3>
+
+                <p>
+                    Apoio pedagógico especializado, tradutores/intérpretes de Libras e adaptações para garantir a aprendizagem de todos.
+                </p>
+
+            </div>
+
+
+            <div class="acessibilidade-item">
+
+                <span>🤝</span>
+
+                <h3>
+                    Uma escola para todos
+                </h3>
+
+                <p>
+                    Valorizamos o respeito às diferenças, a inclusão e a participação de todos na comunidade escolar.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="subtitulo-galeria">
+
+            <h3>
+                Recursos de acessibilidade
+            </h3>
+
+            <p>
+                Conheça alguns dos recursos de acessibilidade disponíveis na escola.
+            </p>
+
+        </div>
+
+
+        <div class="galeria-container">
+
+            <button
+                class="galeria-botao anterior"
+                onclick="mudarImagem('acessibilidade', -1)"
+                aria-label="Foto anterior de acessibilidade">
+                &#10094;
+            </button>
+
+
+            <div class="galeria-principal">
+
+                <div class="imagem-container">
+
+                    <img
+                        id="imagem-acessibilidade"
+                        src="imagens/acessibilidade.jpg"
+                        alt="Elevador Acessível">
+
+                </div>
+
+
+                <div class="galeria-informacao">
+
+                    <span
+                        id="contador-acessibilidade"
+                        class="contador">
+                        1 / 4
+                    </span>
+
+                    <h3 id="titulo-acessibilidade">
+                        Elevador Acessível
+                    </h3>
+
+                    <p id="descricao-acessibilidade">
+                        Permite acesso seguro e prático aos diferentes andares do prédio.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="galeria-botao proximo"
+                onclick="mudarImagem('acessibilidade', 1)"
+                aria-label="Próxima foto de acessibilidade">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <div
+            class="galeria-indicadores"
+            id="indicadores-acessibilidade">
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PREMIAÇÕES
+    ========================================== -->
+
+    <section id="premiacoes" class="secao">
+
+        <h2>
+            🏆 Premiações e Conquistas
+        </h2>
+
+        <p class="introducao">
+            Celebramos o empenho dos nossos estudantes e professores nas competições, olimpíadas do conhecimento, programas estaduais e jogos escolares.
+        </p>
+
+
+        <div class="premiacao-destaque">
+
+            <span class="trofeu">
+                🏆
+            </span>
+
+            <h3>
+                Orgulho da nossa escola!
+            </h3>
+
+            <p>
+                Nossos alunos têm se destacado em diversas áreas do conhecimento, esportes e inovação tecnológica.
+            </p>
+
+        </div>
+
+
+        <div class="galeria-container">
+
+            <button
+                class="galeria-botao anterior"
+                onclick="mudarImagem('premiacoes', -1)"
+                aria-label="Premiação anterior">
+                &#10094;
+            </button>
+
+
+            <div class="galeria-principal">
+
+                <div class="imagem-container">
+
+                    <img
+                        id="imagem-premiacoes"
+                        src="imagens/omasp.jpg"
+                        alt="Medalhas OMASP 2026">
+
+                </div>
+
+
+                <div class="galeria-informacao">
+
+                    <span
+                        id="contador-premiacoes"
+                        class="contador">
+                        1 / 7
+                    </span>
+
+                    <h3 id="titulo-premiacoes">
+                        OMASP 2026 - Olimpíada de Matemática
+                    </h3>
+
+                    <p id="descricao-premiacoes">
+                        Conquista de Medalhas de Ouro, Prata e Bronze pelos nossos alunos na OMASP.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="galeria-botao proximo"
+                onclick="mudarImagem('premiacoes', 1)"
+                aria-label="Próxima premiação">
+                &#10095;
+            </button>
+
+        </div>
+
+
+        <div
+            class="galeria-indicadores"
+            id="indicadores-premiacoes">
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         EVENTOS, PROJETOS E VISITAÇÕES
+    ========================================== -->
+
+    <section id="eventos" class="secao eventos">
+
+        <h2>
+            📅 Eventos, Projetos e Visitações
+        </h2>
+
+        <p class="introducao">
+            Confira algumas das ações, projetos e experiências realizadas pelos nossos estudantes e professores ao longo de 2026.
+        </p>
+
+
+        <!-- =====================================
+             PROJETO MANNA
+        ====================================== -->
+
+        <article class="evento-card">
+
+            <div class="evento-cabecalho">
+
+                <span class="evento-icone">
+                    🌱
+                </span>
+
+                <div>
+
+                    <h3>
+                        Projeto Manna
+                    </h3>
+
+                    <p class="evento-responsaveis">
+                        Desenvolvido pelas professoras Cláudia e Elena
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <p class="evento-descricao">
+                O Projeto Manna promove atividades e experiências educativas envolvendo os estudantes, valorizando a participação, a aprendizagem e o desenvolvimento de novos conhecimentos no ambiente escolar.
+            </p>
+
+
+            <div class="evento-galeria">
+
+                <button
+                    class="galeria-botao anterior"
+                    onclick="mudarImagem('manna', -1)"
+                    aria-label="Foto anterior do Projeto Manna">
+                    &#10094;
+                </button>
+
+
+                <div class="galeria-principal">
+
+                    <div class="imagem-container">
+
+                        <img
+                            id="imagem-manna"
+                            src="imagens/manna.jpg"
+                            alt="Projeto Manna">
+
+                    </div>
+
+
+                    <div class="galeria-informacao">
+
+                        <span
+                            id="contador-manna"
+                            class="contador">
+                            1 / 6
+                        </span>
+
+                        <h3 id="titulo-manna">
+                            Projeto Manna
+                        </h3>
+
+                        <p id="descricao-manna">
+                            Registro das atividades do Projeto Manna realizadas na escola pelas professoras Cláudia e Elena.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="galeria-botao proximo"
+                    onclick="mudarImagem('manna', 1)"
+                    aria-label="Próxima foto do Projeto Manna">
+                    &#10095;
+                </button>
+
+            </div>
+
+
+            <div
+                class="galeria-indicadores"
+                id="indicadores-manna">
+            </div>
+
+        </article>
+
+
+        <!-- =====================================
+             FÓRUM DE PACAEMBU
+        ====================================== -->
+
+        <article class="evento-card">
+
+            <div class="evento-cabecalho">
+
+                <span class="evento-icone">
+                    ⚖️
+                </span>
+
+                <div>
+
+                    <h3>
+                        Visitação ao Fórum de Pacaembu
+                    </h3>
+
+                    <p class="evento-responsaveis">
+                        2ª Séries • Professores Beatriz e Thiago
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <p class="evento-descricao">
+                As 2ª séries realizaram uma visita ao Fórum de Pacaembu, proporcionando aos estudantes uma experiência de aprendizagem fora do ambiente escolar e a oportunidade de conhecer de perto o funcionamento do espaço e das atividades relacionadas à Justiça.
+            </p>
+
+
+            <div class="evento-galeria">
+
+                <button
+                    class="galeria-botao anterior"
+                    onclick="mudarImagem('forum', -1)"
+                    aria-label="Foto anterior da visita ao Fórum">
+                    &#10094;
+                </button>
+
+
+                <div class="galeria-principal">
+
+                    <div class="imagem-container">
+
+                        <img
+                            id="imagem-forum"
+                            src="imagens/fórum.jpg"
+                            alt="Visitação das 2ª séries ao Fórum de Pacaembu">
+
+                    </div>
+
+
+                    <div class="galeria-informacao">
+
+                        <span
+                            id="contador-forum"
+                            class="contador">
+                            1 / 4
+                        </span>
+
+                        <h3 id="titulo-forum">
+                            Fórum de Pacaembu
+                        </h3>
+
+                        <p id="descricao-forum">
+                            Visitação realizada pelas 2ª séries com os professores Beatriz e Thiago.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="galeria-botao proximo"
+                    onclick="mudarImagem('forum', 1)"
+                    aria-label="Próxima foto da visita ao Fórum">
+                    &#10095;
+                </button>
+
+            </div>
+
+
+            <div
+                class="galeria-indicadores"
+                id="indicadores-forum">
+            </div>
+
+
+            <div class="evento-link">
+
+                <a
+                    href="https://www.tjsp.jus.br/Noticias/Noticia?codigoNoticia=115247"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao">
+                    📰 Ler reportagem do TJSP
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- =====================================
+             ESTAÇÃO CLIMATOLÓGICA - UNESP
+        ====================================== -->
+
+        <article class="evento-card">
+
+            <div class="evento-cabecalho">
+
+                <span class="evento-icone">
+                    🌦️
+                </span>
+
+                <div>
+
+                    <h3>
+                        Visitação à Estação Climatológica da UNESP
+                    </h3>
+
+                    <p class="evento-responsaveis">
+                        9º anos • Professoras Vanessa Scrocaro e Denise Rossi
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <p class="evento-descricao">
+                Os estudantes dos 9º anos participaram de uma visita à Estação Climatológica da UNESP de Dracena, conhecendo equipamentos, informações e procedimentos relacionados à observação e ao estudo das condições atmosféricas.
+            </p>
+
+
+            <div class="evento-galeria">
+
+                <button
+                    class="galeria-botao anterior"
+                    onclick="mudarImagem('estacao', -1)"
+                    aria-label="Foto anterior da Estação Climatológica">
+                    &#10094;
+                </button>
+
+
+                <div class="galeria-principal">
+
+                    <div class="imagem-container">
+
+                        <img
+                            id="imagem-estacao"
+                            src="imagens/estação.jpg"
+                            alt="Visitação à Estação Climatológica da UNESP">
+
+                    </div>
+
+
+                    <div class="galeria-informacao">
+
+                        <span
+                            id="contador-estacao"
+                            class="contador">
+                            1 / 4
+                        </span>
+
+                        <h3 id="titulo-estacao">
+                            Estação Climatológica da UNESP
+                        </h3>
+
+                        <p id="descricao-estacao">
+                            Visitação dos 9º anos à Estação Climatológica da UNESP de Dracena.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="galeria-botao proximo"
+                    onclick="mudarImagem('estacao', 1)"
+                    aria-label="Próxima foto da Estação Climatológica">
+                    &#10095;
+                </button>
+
+            </div>
+
+
+            <div
+                class="galeria-indicadores"
+                id="indicadores-estacao">
+            </div>
+
+
+            <div class="evento-link">
+
+                <a
+                    href="https://www.instagram.com/reel/DdHrroHxqTo/?stkn=MWhnaW83YWZudmhjNw=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao">
+                    ▶ Assistir vídeo no Instagram
+                </a>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- =========================================
+         FAMÍLIAS E TUTORIAIS
+    ========================================== -->
+
+    <section id="familias" class="secao familias">
+
+        <h2>
+            Informações e Tutoriais para Pais e Alunos
+        </h2>
+
+        <p class="introducao">
+            Nesta área, você encontra orientações e tutoriais importantes para acompanhar a vida escolar e participar dos programas disponíveis.
+        </p>
+
+
+        <div class="cards">
+
+
+            <article class="card">
+
+                <div class="icone">
+                    💻
+                </div>
+
+                <h3>
+                    Tutorial Sala do Futuro
+                </h3>
+
+                <p>
+                    Assista ao tutorial e aprenda como acessar a Sala do Futuro.
+                </p>
+
+                <a
+                    href="https://www.youtube.com/watch?v=xyznKBHl-yE"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao">
+                    ▶ Assistir Tutorial
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icone">
+                    🌐
+                </div>
+
+                <h3>
+                    Como participar do Prontos pro Mundo
+                </h3>
+
+                <p>
+                    Confira o passo a passo de como se inscrever e participar do programa de intercâmbio Prontos pro Mundo.
+                </p>
+
+                <a
+                    href="https://www.prontospromundo.educacao.sp.gov.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao">
+                    ▶ Ver Tutorial
+                </a>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icone">
+                    📚
+                </div>
+
+                <h3>
+                    Acompanhamento Escolar
+                </h3>
+
+                <p>
+                    Acompanhe atividades, frequências e comunicados importantes da escola.
+                </p>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="icone">
+                    📱
+                </div>
+
+                <h3>
+                    Comunicação com as Famílias
+                </h3>
+
+                <p>
+                    Mantenha-se informado sobre reuniões, eventos e ações realizadas pela escola.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CONTATO
+    ========================================== -->
+
+    <section id="contato" class="secao contato">
+
+        <h2>
+            Entre em Contato
+        </h2>
+
+
+        <div class="contato-container">
+
+
+            <div>
+
+                <h3>
+                    📍 Endereço
+                </h3>
+
+                <p>
+                    Rua Alberto Galeti, nº 29<br>
+                    Centro - Irapuru - SP<br>
+                    CEP: 17880-000
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    📞 Telefone
+                </h3>
+
+                <p>
+                    (18) 3861-1176<br>
+                    (18) 3861-1378
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    📧 E-mail
+                </h3>
+
+                <p>
+                    e030958a@educacao.sp.gov.br
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         RODAPÉ
+    ========================================== -->
+
+    <footer>
+
+        <img
+            src="imagens/brasao-irapuru.png"
+            alt="Brasão de Irapuru"
+            class="brasao-rodape">
+
+        <h2>
+            EE Prof. José Edson Moysés
+        </h2>
+
+        <p>
+            Irapuru - São Paulo
+        </p>
+
+        <p>
+            Educação • Inclusão • Conhecimento • Transformação
+        </p>
+
+        <p>
+            © 2026 - EE Prof. José Edson Moysés
+        </p>
+
+    </footer>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
